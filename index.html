@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html rem="750">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="css/u-reset.css">
+		<link rel="stylesheet" href="css/iconfont.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<title>天气预报</title>
+	</head>
+	<body>
+		<div class="contents">
+			<div class="title-city">太原</div>
+			<div class="wrap">
+				<div class="city-area">太原</div>
+				<div class="tem">18°</div>
+				<div class="weather-box">
+					<span class="fanwei">20°~19°</span>
+					<span class="tianqi">多云</span>
+					<span class="iconfont icon-999 tubiao"></span>
+				</div>
+			</div>
+			<div class="nowday">
+				<span class="week">星期六</span><span class="now">今天</span>
+			</div>
+			<div class="line"></div>
+			<div class="swiper-container nowday-tem">
+				<div class="swiper-wrapper timbox">
+					<div class="swiper-slide timeclick">
+						<div class="nowtime">现在</div>
+						<div class="iconfont icon-999 icon-tu"></div>
+						<div class="nowtime-tem">19°</div>
+					</div>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="now-week">
+				<div class="now-week-box">
+					<div class="now-week-day">星期日</div>
+					<div class="iconfont icon-999 now-week-tu"></div>
+					<div class="now-week-tmg">
+						<span class="max-tmg">30</span>
+						<span class="min-tmg">20</span>
+					</div>
+				</div>
+			</div>
+			<div class="Life-index">
+				<span>生活指数</span>
+				<!-- Swiper -->
+				<div class="swiper-container lunbotu">
+					<div class="swiper-wrapper swiperBox">
+						<div class="swiper-slide lunbo">
+							<div class="tip-img"><i class="iconfontcss"></i></div>
+							<div class="tips">
+								<div class="tips-title">穿衣</div>
+								<div class="tips-neirong"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="air-quality">
+				<div class="air-title">空气质量</div>
+				<div class="degree">
+					<img src="img/arr.png">
+					<div class="excellent">优</div>
+					<div class="good">良</div>
+					<div class="light">轻度</div>
+					<div class="moderate">中度</div>
+					<div class="severe">重度</div>
+					<div class="serious">严重</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/index.js"></script>
+</html>

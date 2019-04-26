@@ -1,0 +1,233 @@
+.lunbo:not(.swiper-slide-active) {
+    transform: scale(0.8);
+}
+.contents{
+	width: 100%;
+	background: linear-gradient(#3e54d6,#7352e8,#898ef4);
+	color: #FFFFFF;
+	overflow: hidden;
+}
+.title-city{
+	height: 0.88rem;
+	font-size: 0.3rem;
+	line-height: 0.88rem;
+	color: #fff;
+	text-align: center;
+}
+.wrap{
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+} 
+.wrap .city-area{
+	height: 0.8rem;
+	font-size: 0.34rem;
+	line-height: 1.2rem;
+	text-align: right;
+}
+.wrap .tem{
+	height: 1.2rem;
+	font-size: 1rem;
+	line-height: 1.2rem;
+	text-align: right;
+}
+.wrap .weather-box{
+	text-align: right;
+}
+.wrap .weather-box span{
+	font-size: 0.3rem;
+}
+.nowday{
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	width: 100%;
+}
+.nowday .week{
+	font-size: 0.34rem;
+}
+.nowday .now{
+	font-size: 0.24rem;
+	margin-left: 0.4rem;
+}
+.line{
+	width: 100%;
+	height: 1px;
+	background: #6963f1;
+	margin: 0.3rem 0;
+}
+.nowday-tem{
+	width: 100%;
+	height: 2.47rem;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+}
+.nowday-tem .timbox{
+	width: 100%;
+	display: flex;
+}
+.nowday-tem .timbox .timeclick{
+	width: 1.05rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+.timeclick .nowtime{
+	font-size: 0.32rem;
+	width: 1rem;
+	text-align: center;
+}
+.timeclick .nowtime-tem{
+	font-size: 0.36rem;
+}
+.now-week{
+	width: 100%;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+}
+.now-week .now-week-box{
+	display: flex;
+	justify-content: space-between;
+	margin: 0.15rem 0;
+}
+.now-week .now-week-box .now-week-day{
+	font-size: 0.34rem;
+}
+.now-week .now-week-box .now-week-tu{
+	font-size: 0.34rem;
+}
+.now-week .now-week-box .now-week-tmg{
+	width: 1.35rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.35rem;
+}
+.Life-index{
+	height: 3.88rem;
+	width: 100%;
+	margin-top: 0.59rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.Life-index span{
+	padding: 0.3rem;
+	font-size: 0.4rem;
+	box-sizing: border-box;
+}
+.lunbotu{
+	width: 100%;
+}
+.lunbo{
+	width: 5.86rem !important;
+	/* margin-right: -10px; */
+	height: 2.52rem;
+	background-color: #ffffff;
+	box-shadow: 0px 0.2rem 0.3rem 0px 
+		rgba(0, 128, 216, 0.3);
+	border-radius: 0.2rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.lunbo .tip-img{
+	width: 0.8rem;
+	height:0.8rem;
+}
+.lunbo .tip-img i{
+	font-size: 0.8rem;
+	color: #876bef;
+}
+.lunbo .tips{
+	height: 1.6rem;
+	width: 3.95rem;
+}
+.lunbo .tips .tips-title{
+	font-size: 0.32rem;
+	color: #333333;
+}
+.lunbo .tips .tips-neirong{
+	font-size: 0.26rem;
+	color: #b8b8b8;
+}
+.air-quality{
+	margin: 0.6rem 0;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	height: 1.61rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.air-quality .air-title{
+	font-size: 0.4rem;
+}
+.air-quality img{
+	width: 0.34rem;
+	height: 0.2rem;
+	box-shadow: 0px 8px 12px 0px 
+		rgba(112, 105, 255, 0.35);
+	position: absolute;
+	left: 0;
+	top: -150%;
+}
+.air-quality .degree{
+	width: 100%;
+	height: 0.3rem;
+	display: flex;
+	position: relative;
+}
+.air-quality .degree .excellent{
+	width: 10%;
+	height: 0.3rem;
+	background-color: #5acb7b;
+	border-radius: 0.15rem;
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.air-quality .degree .good{
+	width: 10%;
+	height: 0.3rem;
+	background-color: #a4d363;
+	border-radius: 0.15rem;
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.air-quality .degree .light{
+	width: 10%;
+	height: 0.3rem;
+	background-color: #ffd255;
+	border-radius: 0.15rem;
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.air-quality .degree .moderate{
+	width: 10%;
+	height: 0.3rem;
+	background-color: #fbb464;
+	border-radius: 0.15rem;
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.air-quality .degree .severe{
+	width: 20%;
+	height: 0.3rem;
+	background-color: #ef8659;
+	border-radius: 0.15rem;
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.air-quality .degree .serious{
+	width: 40%;
+	height: 0.3rem;
+	background-color: #f06163;
+	border-radius: 0.15rem;
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	text-align: center;
+}
